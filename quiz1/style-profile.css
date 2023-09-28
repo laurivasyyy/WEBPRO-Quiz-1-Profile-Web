@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #161616;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eae8e3;
+  font-family: "mek";
+  font-size: 60px;
+  text-transform: bold;
+  text-transform: uppercase;
+  text-align: center;
+  transition: color;
+}
+
+h1:hover{
+  color: #958f73;
+}
+
+p {
+  margin: 0;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eae8e3;
+  font-family: "times new roman";
+  font-size: 20px;
+  text-align: justify;
+}
+
+.img {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  transition-timing-function: ease-out;
+}
+
+.image-one {
+  background: url(image/image-one.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 100ms;
+}
+
+.image-two {
+  background: url(image/image-two.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 400ms;
+}
+
+.image-three {
+  background: url(image/image-five.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 1100ms;
+}
+
+.image-four {
+  background: url(image/image-four.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 900ms;
+}
+
+.image-five {
+  background: url(image/image-three.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  transition-duration: 300ms;
+}
