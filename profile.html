@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>profile-page-vasy</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style-profile.css" />
+    <style>
+      .navbar {
+          background-color: #eae8e3;
+          padding: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 9999;
+      }
+  
+
+      .site-menu {
+          display: flex;
+          gap: 10px;
+      }
+
+      .menu-item {
+          color: black;
+          text-decoration: none;
+          padding: 5px;
+          border-radius: 5px;
+          background-color: #eae8e3;
+          transition: background-color 0.3s ease;
+      }
+
+      .menu-item:hover {
+          background-color: #d4d4d4;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="site-menu">
+          <div><a class="menu-item" href="homepage.html">Home</a></div>
+          <div><a class="menu-item" href="profile.html">profile</a></div>
+          <div><a class="menu-item" href="hometown.html">hometown</a></div>
+          <div><a class="menu-item" href="local-food.html">local food</a></div>
+          <div><a class="menu-item" href="tourist-area.html">tourist area</a></div>
+      </div>
+  </div>   
+    <div class="image-one img"></div>
+    <div class="image-two img"></div>
+    <div class="image-three img"></div>
+    <div class="image-four img"></div>
+    <div class="image-five img"></div>
+
+    <div class="container">
+    <h1>Laurivasya Gadhing Syahafidh</h1>
+      <p>and I am a student at Institute of Technology Sepuluh Nopember, 
+        pursuing a degree in Computer Science. Beyond my academic pursuits, 
+        I have a fervent passion for various interests. I find solace in the pages of books, 
+        exploring diverse worlds and gaining knowledge through reading. When I'm not 
+        engrossed in a good book, I enjoy immersing myself in the cinematic world, 
+        watching movies that range from thought-provoking dramas to thrilling adventures. 
+        Additionally, I have an insatiable wanderlust, and traveling is a cherished hobby 
+        that allows me to discover new cultures, cuisines, and landscapes. 
+        These diverse interests not only enrich my life but also provide me with a well-rounded 
+        perspective on the world around me. </p>
+    </div>
+    <script>
+      const img1 = document.querySelector(".image-one");
+      const img2 = document.querySelector(".image-two");
+      const img3 = document.querySelector(".image-three");
+      const img4 = document.querySelector(".image-four");
+      const img5 = document.querySelector(".image-five");
+
+      document.addEventListener("mousemove", e => {
+        img1.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img2.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img3.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img4.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img5.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+      });
+    </script>
+  </body>
+</html>

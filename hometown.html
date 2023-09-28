@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>hometown-vasy</title>
+        <link rel="stylesheet" href="style-hometown.css" />
+        <style>
+            .navbar {
+                background-color: #eae8e3;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            .site-menu {
+                display: flex;
+                gap: 10px;
+            }
+    
+            .menu-item {
+                color: black;
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: #eae8e3;
+                transition: background-color 0.3s ease;
+            }
+    
+            .menu-item:hover {
+                background-color: #d4d4d4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="site-menu">
+                <div><a class="menu-item" href="homepage.html">Home</a></div>
+                <div><a class="menu-item" href="profile.html">profile</a></div>
+                <div><a class="menu-item" href="hometown.html">hometown</a></div>
+                <div><a class="menu-item" href="local-food.html">local food</a></div>
+                <div><a class="menu-item" href="tourist-area.html">tourist area</a></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="nav"></div>
+            <div class="text-content">
+                <h2>things to say about my hometown</h2>
+            </div>
+            <div class="items">
+                <div class="item">
+                    <div class="item-wrapper">
+                    <div class="img-overlay"></div>
+                        <div class="item-copy">
+                        <div class="item-name">
+                        the place where i was born <span>as it's where I was born on May 7, 2023</span> 
+                            </div>
+                            <div class="id">K</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                <div class="item-wrapper">
+                    <div class="img-overlay"></div>
+                        <div class="item-copy">
+                        <div class="item-name">
+                        the place where i live <span>I live near Kelud Mountain, and the view from my location is simply breathtaking, beyond what anyone could imagine</span> 
+                            </div>
+                            <div class="id">E</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                <div class="item-wrapper">
+                    <div class="img-overlay"></div>
+                        <div class="item-copy">
+                        <div class="item-name">
+                        the place full of natural beauty
+                        <span>Since it is a small town, not much polution, just a fresh air to breath</span> 
+                            </div>
+                            <div class="id">D</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                <div class="item-wrapper">
+                    <div class="img-overlay"></div>
+                        <div class="item-copy">
+                        <div class="item-name">
+                        the place with lots of good foods
+                        <span>So many traditional foods, that have become my ultimate comfort food</span> 
+                            </div>
+                            <div class="id">I</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                <div class="item-wrapper">
+                    <div class="img-overlay"></div>
+                        <div class="item-copy">
+                        <div class="item-name">
+                         the place full of my child hood memories 
+                         <span>An enchanting place filled with cherished childhood memories, where I spent my junior high school years and shared countless adventures with my friends</span> 
+                            </div>
+                            <div class="id">R</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                <div class="item-wrapper">
+                    <div class="img-overlay"></div>
+                        <div class="item-copy">
+                        <div class="item-name">
+                        the place that i call home
+                        <span>Home is where all of my family gathers, a place of love and togetherness</span> 
+                            </div>
+                            <div class="id">I</div>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <!-- PROFILE PAGE -->
+        <div class="image-one img"></div>
+    <div class="image-two img"></div>
+    <div class="image-three img"></div>
+    <div class="image-four img"></div>
+    <div class="image-five img"></div>
+
+    <div class="container">
+    <h1>Laurivasya Gadhing Syahafidh</h1>
+      <p>and I am a student at Institute of Technology Sepuluh Nopember, 
+        pursuing a degree in Computer Science. Beyond my academic pursuits, 
+        I have a fervent passion for various interests. I find solace in the pages of books, 
+        exploring diverse worlds and gaining knowledge through reading. When I'm not 
+        engrossed in a good book, I enjoy immersing myself in the cinematic world, 
+        watching movies that range from thought-provoking dramas to thrilling adventures. 
+        Additionally, I have an insatiable wanderlust, and traveling is a cherished hobby 
+        that allows me to discover new cultures, cuisines, and landscapes. 
+        These diverse interests not only enrich my life but also provide me with a well-rounded 
+        perspective on the world around me. </p>
+    </div>
+    <script>
+      const img1 = document.querySelector(".image-one");
+      const img2 = document.querySelector(".image-two");
+      const img3 = document.querySelector(".image-three");
+      const img4 = document.querySelector(".image-four");
+      const img5 = document.querySelector(".image-five");
+
+      document.addEventListener("mousemove", e => {
+        img1.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img2.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img3.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img4.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+        img5.setAttribute(
+          "style",
+          "top :" + (e.pageY - 225) + "px; left: " + (e.pageX - 200) + "px"
+        );
+      });
+    </script>
+    </body>
+</html>
